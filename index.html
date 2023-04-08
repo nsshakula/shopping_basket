@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина покупок</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="shopping-bag">
+        <h1 class="shopping-bag__title">Корзина</h1>
+        <ul class="products">
+          <!--Товар №1 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/image/stegosaurus.jpg"
+              alt="Стегозавр"
+            />
+            <div class="features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Стегозавр, 50 см, зелeный</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <p class="product__price">
+              <span class="js-stegosaurus">4040</span> руб.
+            </p>
+          </li>
+          <!--Товар №2 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/image/brontosaurus.jpg"
+              alt="Бронтозавр"
+            />
+            <div class="features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Бронтозавр, 30 см, коричневый</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <p class="product__price">
+              <span class="js-brontosaurus">2000</span> руб.
+            </p>
+          </li>
+          <!--Товар №3 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/image/triceratops.jpg"
+              alt="Трицераптос"
+            />
+            <div class="features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Трицераптос, 33 см, коричневый</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <p class="product__price">
+              <span class="js-triceratops">1999</span> руб.
+            </p>
+          </li>
+          <!--Товар №4 -->
+          <li class="product">
+            <img
+              class="product__image"
+              src="assets/image/ankylosaurus.jpg"
+              alt="Анкилозавр"
+            />
+            <div class="features">
+              <h2 class="product__title">Мягкая игрушка ЙЭТТЕЛИК</h2>
+              <p class="product__text">Анкилозавр, 55 см, зелeный</p>
+              <p class="product__text quantity">Количество: 1</p>
+            </div>
+            <p class="product__price">
+              <span class="js-ankylosaurus">4750</span> руб.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!--Итого: -->
+      <div class="result">
+        <button type="button" class="result__discount button">
+          Использовать купон на 20%
+        </button>
+        <div class="result__sum">
+          <p class="result__text">Итого:</p>
+          <p class="result__number">
+            <span class="js-result__number"></span> руб.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
